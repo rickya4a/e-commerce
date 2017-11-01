@@ -1,0 +1,1 @@
+Selamat datang <strong><?php echo $this->php_session->get('email') ?></strong>
