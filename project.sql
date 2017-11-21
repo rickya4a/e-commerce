@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 13, 2017 at 08:18 PM
+-- Generation Time: Nov 21, 2017 at 12:56 PM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 5.6.31
 
@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `project`
 --
-CREATE DATABASE IF NOT EXISTS `project` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `project`;
 
 -- --------------------------------------------------------
 
@@ -179,7 +177,7 @@ CREATE TABLE `members` (
 
 INSERT INTO `members` (`id`, `email`, `password`, `full_name`, `address`, `phone`, `zip`, `level`, `status`, `last_login`, `created`, `modified`, `cost`) VALUES
 (1, 'ricky@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'Ricky', 'Perumahan', '080899977', 0, 0, 1, '2017-08-04 09:00:03', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0),
-(3, 'user@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'user', 'aspdpasd', '00909', 9009, 0, 1, '2017-09-13 18:42:04', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 9000),
+(3, 'user@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'user', 'aspdpasd', '00909', 9009, 0, 1, '2017-10-03 09:08:34', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 9000),
 (4, 'user1@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'User', 'Perum\n', '080999', 88888, 0, 1, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0),
 (5, 'user21@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'Ricky', 'Perumahan Mega Regency', '087879558523', 101011, 0, 1, '2017-07-23 13:14:15', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0),
 (6, 'user21@localhost.net', 'ee11cbb19052e40b07aac0ca060c23ee', 'user', 'Perumahan Mega', '08777779', 101010, 0, 1, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0),
@@ -409,9 +407,9 @@ INSERT INTO `products` (`id`, `code`, `name`, `permalink`, `price`, `discount_pe
 (18, '', '', '', 0, 0, 0, '', -1, 0, 0, NULL),
 (19, '', '', '', 0, 0, 0, '', -1, 0, 0, NULL),
 (20, '', '', '', 0, 0, 0, '', -1, 0, 0, NULL),
-(21, 'SW007', 'Converse Skate \'Cons\' Black Sweater', 'converse-skate-cons-black-sweater', 350000, 0, 350000, '<h3>Black Cons Sweater Colored Logo for all seasons</h3>', 10, 1, 7, NULL),
+(21, 'SW007', 'Converse Skate \'Cons\'', 'converse-skate-cons', 350000, 0, 350000, '<h3>Black Cons Sweater Colored Logo for all seasons</h3>', 10, 1, 7, NULL),
 (22, 'LP001', 'Volcom Frickin Chino', 'volcom-frickin-chino', 500000, 0, 500000, '<h3>Chino Pants Volcom Khaki Stretch. Best for skates.</h3>', 26, 1, 6, NULL),
-(23, 'LP002', 'DC Skate Chino Pants Royal Blue', 'dc-skate-chino-pants-royal-blue', 530000, 5, 503500, '<h3>Now DC Shoes produces chino pants for all skaters. Best suit for skaters.</h3>\n<p>&nbsp;</p>', 10, 1, 6, NULL);
+(23, 'LP002', 'DC Skate Chino Pants', 'dc-skate-chino-pants', 530000, 5, 503500, '<h3>Now DC Shoes produces chino pants for all skaters. Best suit for skaters.</h3>\n<p>&nbsp;</p>', 10, 1, 6, NULL);
 
 -- --------------------------------------------------------
 
